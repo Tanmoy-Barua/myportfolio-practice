@@ -16,5 +16,56 @@ body{
     background-color: #00bdbd;
 }
 .education-container{
-    
+    background-color: #eee;
 }
+.education-header-bgcolor{
+    background-color: #fb857f;
+}
+.education-header-bgcolor:hover{
+    color: #000 !important;
+}
+.education-header-color{
+    color: #fb857f;
+}
+.circle{
+    background-color: #fb857f;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.project-container{
+    background-color: #2bb3dd;
+}
+.from-container{
+    background-color: #474d5d;
+}
+.inner-form{
+    background-color: #585f73;
+}
+.footer{
+    background-color: #2bb3dd;
+}
+
+.circle-white{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    font-size: 40px;
+    text-align: center;
+    color: #2bb3dd;
+}
+.circle-white:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+    .nav-item {
+      margin-left: auto;
+    }
+  }
